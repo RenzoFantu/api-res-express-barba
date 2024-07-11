@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const routes = require('./src/routes/index'); // Archivo que contiene otras rutas
-const productRoutes = require('./src/routes/Product.routes'); // Asegúrate de que la ruta sea correcta
+const productRoutes = require('./src/routes/Productst.router'); // Asegúrate de que la ruta sea correcta
 const app = express();
 
 const port = process.env.PORT || 3000;
