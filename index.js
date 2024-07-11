@@ -11,11 +11,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
-
+mongoose.connect(process.env.MONGODB_URI)
 app.use('/v1', routes); // Asegúrate de que 'routes' no contenga rutas que puedan causar conflictos con 'productRoutes'
 app.use('/v1/products', productRoutes); // Coloca esta ruta después de '/v1' para evitar conflictos
 
