@@ -3,18 +3,21 @@ const Product = require("../models/Product.model");
 
 const getProducts = async(req, res) => {
 
-      try {
-          const productos = await Product.find({})
-    
-          res.json({
-              productos
-          })
-    
-      } catch (error) {
-          res.status(500).json({
-              msg: "Hubo un error obteniendo los datos"
-          })
-      }
+    try {
+        const response = await Product.find();
+        console.log(response);
+        if (response) {
+            return res.json({
+                message: 'Products',
+                detail: response
+            })
+        }
+    } catch (error) {
+        return res.json({
+            message: 'Error',
+            detail: error.message
+        })
+    }
 
 }
 
