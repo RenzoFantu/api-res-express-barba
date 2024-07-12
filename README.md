@@ -26,23 +26,19 @@ Asegúrate de tener instalados Node.js y npm (Node Package Manager).
 ### Pasos
 
 1. **Clonar el repositorio**
-
    ```bash
 git clone https://github.com/tu-usuario/epic-barba-store.git
 
 2. **Variables de entorno .env**
-
    ```bash
 PORT=3001
 MONGODB_URI=mongodb+srv://rfantuzzi:TvToGI3O3G6tnQKf@proyecto5-dwfs.vglnjl4.mongodb.net/?retryWrites=true&w=majority&appName=Proyecto5-dwfs
 JWT_SECRET=MiClaveSecreta
 
 3. **Repositorio Frontend**
-
    ```bash
 https://github.com/RenzoFantu/proyecto-barba-react
 
 4. **Aqui podras ver Proyecto desplegado en Vercel**
-
    ```bash
 https://proyecto-barba-react.vercel.app/
