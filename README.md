@@ -43,4 +43,4 @@ https://github.com/RenzoFantu/proyecto-barba-react
 4. *Aqui podras ver Proyecto desplegado en Vercel**
 
    ```bash
-   https://proyecto-barba-react.vercel.app/
+https://proyecto-barba-react.vercel.app/
