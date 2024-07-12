@@ -28,12 +28,15 @@ Asegúrate de tener instalados Node.js y npm (Node Package Manager).
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/tu-usuario/epic-barba-store.git
-   cd epic-barba-store
+git clone https://github.com/tu-usuario/epic-barba-store.git
+cd epic-barba-store
 2. **Variables de entorno .env**
 
    ```bash
-   VITE_BACKEND_URL=https://api-res-express-barba.vercel.app/v1
+PORT=3001
+MONGODB_URI=mongodb+srv://rfantuzzi:TvToGI3O3G6tnQKf@proyecto5-dwfs.vglnjl4.mongodb.net/?retryWrites=true&w=majority&appName=Proyecto5-dwfs
+JWT_SECRET=MiClaveSecreta
+
 
 3. **Repositorio Frontend**
 
