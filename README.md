@@ -30,6 +30,7 @@ Asegúrate de tener instalados Node.js y npm (Node Package Manager).
    ```bash
 git clone https://github.com/tu-usuario/epic-barba-store.git
 cd epic-barba-store
+
 2. **Variables de entorno .env**
 
    ```bash
